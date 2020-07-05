@@ -3,7 +3,7 @@ import Constants from 'expo-constants';
 
 export default StyleSheet.create({
     container: {
-        flex:1,
+        flex: 1,
         paddingHorizontal: 24,
         paddingTop: Constants.statusBarHeight + 20,
     },
@@ -11,7 +11,9 @@ export default StyleSheet.create({
     header: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        alignItems: 'center'
+        alignItems: 'center',
+        marginHorizontal: 16,
+        marginTop: 40,
     }, 
 
     incident:{
@@ -19,7 +21,8 @@ export default StyleSheet.create({
         borderRadius: 8,
         backgroundColor: '#fff',
         marginBottom: 16,
-        marginTop: 48
+        marginTop: 40,
+        marginHorizontal: 16
     },
 
     incidentProperty:{
@@ -39,7 +42,8 @@ export default StyleSheet.create({
         padding:24,
         borderRadius: 8,
         backgroundColor: '#fff',
-        marginBottom: 16
+        marginBottom: 16,
+        marginHorizontal: 16
     },
 
     helpTitle:{
