@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles.css';
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 import { Link, useHistory } from 'react-router-dom';
 import { FiArrowLeft } from 'react-icons/fi';
 import '../../global.css';
@@ -39,12 +39,12 @@ export default function NewIncident(){
         <div className="new-incident-container">
         <div className="content">
             <section>
-                <img src={logoImg} alt="Be The Hero"/>
+                <img src={logoImg} alt="We Need You"/>
                 <h1> Cadastrar novo caso </h1>
                 <p>Descreva o caso detalhadamente para encontrar um herói para resolver isso.</p>
 
                 <Link className="back-link" to="/profile"> 
-                    <FiArrowLeft size={16} color="#e02041"/>
+                    <FiArrowLeft size={16} color="#004aad"/>
                     Voltar para a home
                 </Link>
             </section>

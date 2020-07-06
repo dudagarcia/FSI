@@ -6,7 +6,7 @@ import { View, Image, Text, TouchableOpacity, Linking } from 'react-native';
 
 
 import styles from './styles';
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/logo.jpeg';
 
 export default function Detail(){
     const navigation = useNavigation();
@@ -40,7 +40,7 @@ export default function Detail(){
             <View style={styles.header}>
                 <Image source={logoImg} />
                 <TouchableOpacity onPress={navigateBack}> 
-                    <Feather name="arrow-left" size={28} color="#e82041"/>
+                    <Feather name="arrow-left" size={28} color="#004aad"/>
                 </TouchableOpacity>                
             </View>
 
@@ -50,6 +50,9 @@ export default function Detail(){
 
                 <Text style={styles.incidentProperty}> Caso: </Text>
                 <Text style={styles.incidentValue}> {incident.title} </Text>
+
+                <Text style={styles.incidentProperty}> Detalhes do Caso: </Text>
+                <Text style={styles.incidentValue}> {incident.description} </Text>
 
                 <Text style={styles.incidentProperty}> Valor: </Text>
                 <Text style={styles.incidentValue}> 

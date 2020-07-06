@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './styles.css';
 import '../../global.css';
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 import { FiArrowLeft } from 'react-icons/fi';
 import { Link, useHistory } from  'react-router-dom';
 import api from '../../services/api';
@@ -47,11 +47,11 @@ export default function Register(){
             <div className="content">
 
                 <section>
-                    <img src={logoImg} alt="Be The Hero"/>
+                    <img src={logoImg} alt="We Need You"/>
                     <h1> Cadastro </h1>
                     <p> Faça seu cadastro, entre na plataforma e ajude pessoas a encontrarem os casos da sua ONG.</p>
                     <Link className="back-link" to="/"> 
-                        <FiArrowLeft size={16} color="#e02041"/>
+                        <FiArrowLeft size={16} color="#004aad"/>
                         Não tenho cadastro
                     </Link>
                 </section>

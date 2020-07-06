@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import logoImg from '../../assets/logo.svg';
+import logoImg from '../../assets/logo.png';
 import { Link, useHistory } from 'react-router-dom';
 import { FiPower, FiTrash2 } from 'react-icons/fi';
 import './styles.css';
@@ -46,11 +46,11 @@ export default function Profile(){
     return(
         <div className="profile-container">
             <header>
-                <img src={logoImg} alt="Be The Hero"/>
+                <img src={logoImg} alt="We Need You"/>
                 <span> Bem vinda, {ongName} </span>
                 <Link className="button" to="/incidents/new"> Cadastrar novo caso </Link>
                 <button onClick={handleLogout} type="button">
-                    <FiPower size={18} color="#e02041"/>
+                    <FiPower size={18} color="#004aad"/>
                 </button>
             </header>
 

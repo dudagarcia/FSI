@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/native';
 import { View, Image, Text, TouchableOpacity, FlatList } from 'react-native';
 
 
-import logoImg from '../../assets/logo.png';
+import logoImg from '../../assets/logo.jpeg';
 import styles from './styles';
 
 import api from '../../services/api';
@@ -90,7 +90,7 @@ export default function Incidents(){
                         onPress={ () => navigateToDetail(incident) } //para não passar somente função, mas parâmetro tb
                     >
                         <Text style={styles.detailsButtonText}> Ver mais detalhes </Text>
-                        <Feather name="arrow-right" size={19} color="#e02041"></Feather>
+                        <Feather name="arrow-right" size={19} color="#004aad"></Feather>
                     </TouchableOpacity>
                 </View>
 
