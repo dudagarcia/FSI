@@ -1,6 +1,28 @@
 A) Para baixar o projeto, basta acessar o seguinte repositório Git https://github.com/dudagarcia/FSI e fazer o download do repositório;
 
-B) Para rodar a aplicação Web: abrir um prompt de comando, acessar o caminho no qual você realizou o download, e depois executar os seguintes comandos:
+B) Baixar o gerenciador de pacotes Chocolatey (https://chocolatey.org/install) e rodar o comando choco install nodejs-lts (conferir se as versões existem com os comandos node-v e npm-v)
+
+C) Instalar os seguintes pacotes nos seguintes caminhos (caminho > comando):
+1- FSI/backend > npm install nodemon -D
+2- FSI/backend > npm install express
+3- FSI/backend > npm install knex
+4- FSI/backend > npm install sqlite3
+5- FSI/backend > npm install cors
+6- FSI/backend > npm install celebrate
+6- FSI/front-end > npm install react-icons
+7- FSI/front-end > npm install react-router-dom
+8- FSI/front-end > npm install axios
+9- FSI/front-end > npm install react-scripts
+10- FSI/mobile > npm install -g expo-cli
+11- FSI/mobile > npm install @react-navigation/native
+12- FSI/mobile > expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+13- FSI/mobile > npm install @react-navigation/stack
+14- FSI/mobile > expo install expo-constants
+15- FSI/mobile > expo install expo-mail-composer
+16- FSI/mobile > npm install axios
+19- FSI/mobile > npm install intl
+
+D) Para rodar a aplicação Web: abrir um prompt de comando, acessar o caminho no qual você realizou o download, e depois executar os seguintes comandos:
 1- cd fsi
 2- cd backend
 3- npm start
@@ -8,8 +30,9 @@ Abrir outro prompt de comando, acessar o caminho no qual você realizou o downloa
 1- cd fsi
 2- cd front-end
 3- npm start
+Em alguns instantes, uma aba será aberta em seu browser (localhost) com a aplicação funcionando!
 
-C)Para rodar a aplicação Mobile, você precisará fazer o download do aplicativo Expo em seu celular - disponível em lojas de aplicativo como PlayStore e AppStore gratuitamente
+E)Para rodar a aplicação Mobile, você precisará fazer o download do aplicativo Expo em seu celular - disponível em lojas de aplicativo como PlayStore e AppStore gratuitamente
 Você deve abrir um prompt de comando, acessar o caminho no qual você realizou o download, e depois executar os seguintes comandos:
 1- cd fsi
 2- cd backend

@@ -14,9 +14,7 @@ export default function Detail(){
 
     const incident = route.params.incident; //incident é nome do parâmetro que a rota recebeu
     
-    const message = `Olá ${incident.name}, 
-    estou entrando em contato pois gostaria de ajudar no caso ${incident.title} 
-    com o valor de ${Intl.NumberFormat('pT-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)} `;
+    const message = `Olá ${incident.name}, estou entrando em contato pois gostaria de ajudar no caso ${incident.title} com o valor de ${Intl.NumberFormat('pT-BR', { style: 'currency', currency: 'BRL' }).format(incident.value)} `;
 
     
     function navigateBack(){
