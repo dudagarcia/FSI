@@ -1,0 +1,23 @@
+A) Para baixar o projeto, basta acessar o seguinte repositório Git https://github.com/dudagarcia/FSI e fazer o download do repositório;
+
+B) Para rodar a aplicação Web: abrir um prompt de comando, acessar o caminho no qual você realizou o download, e depois executar os seguintes comandos:
+1- cd fsi
+2- cd backend
+3- npm start
+Abrir outro prompt de comando, acessar o caminho no qual você realizou o download, e depois executar os seguintes comandos:
+1- cd fsi
+2- cd front-end
+3- npm start
+
+C)Para rodar a aplicação Mobile, você precisará fazer o download do aplicativo Expo em seu celular - disponível em lojas de aplicativo como PlayStore e AppStore gratuitamente
+Você deve abrir um prompt de comando, acessar o caminho no qual você realizou o download, e depois executar os seguintes comandos:
+1- cd fsi
+2- cd backend
+3- npm start
+Abrir outro prompt de comando, acessar o caminho no qual você realizou o download, e depois executar os seguintes comandos:
+1- cd fsi
+2- cd mobile
+3- yarn start
+Ao rodar esse último comando, uma aba será aberta no seu browser com um QRCode. Entre no seu aplicativo Expo pelo celular, e clique na aba "Scan QRCode". 
+Assim, a aplicação será iniciada e você já poderá usufrui-la!
+
